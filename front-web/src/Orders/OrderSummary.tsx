@@ -1,4 +1,4 @@
-import { formatPrice } from './helpers';
+import { formatPrice } from "./helpers";
 
 type Props = {
   amount: number;
@@ -22,7 +22,11 @@ function OrderSummary({ amount, totalPrice, onSubmit }: Props) {
             VALOR TOTAL
           </span>
         </div>
-        <button className="order-summary-make-order" onClick={onSubmit}>
+        <button
+          // disabled={disabilitaBotao()}
+          className="order-summary-make-order"
+          onClick={onSubmit}
+        >
           FAZER PEDIDO
         </button>
       </div>
