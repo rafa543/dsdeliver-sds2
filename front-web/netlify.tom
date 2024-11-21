@@ -1,0 +1,6 @@
+[build]
+  publish = "build"  # ou o diretório que você usa para build
+  command = "npm run build"  # o comando que você usa para construir seu projeto
+
+[functions]
+  node_version = "18"  # ou "20" se você preferir a versão mais recente
